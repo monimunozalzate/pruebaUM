@@ -142,8 +142,8 @@
     width: 100% !important;
   }
   .buy {
-    top: 6%;
-    right: -8%;
+    top: 6% !important;
+    right: -36% !important;
   }
 }
 @media (max-width: 600px) {
@@ -160,9 +160,9 @@
     width: 100%;
   }
   .buy {
-    font-size: 62px;
-    top: 9%;
-    left: 0%;
+    font-size: 83px;
+    top: 9% !important;
+    left: 16%;
     width: 100%;
   }
   .cellphonesContainer .right .buyContainer .cellphone {
@@ -180,13 +180,13 @@
 }
 @media (max-width: 380px) {
   .buy {
-    font-size: 54px;
-    top: 9%;
+    top: 9% !important;
+    left: 6%;
   }
 }
 @media (max-width: 350px) {
   .buy {
-    font-size: 44px;
+    font-size: 72px;
   }
   .cellphonesContainer .right .buyContainer .cellphone {
     font-size: 75px;
