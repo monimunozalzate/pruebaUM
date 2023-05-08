@@ -106,7 +106,10 @@
 }
 @media (max-width: 1350px) {
   .cellphonesContainer {
-    gap: 3rem;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 0 4rem 4rem;
   }
   .cellphonesContainer .right,
   .cellphonesContainer .left {
@@ -115,26 +118,27 @@
   .cellphonesContainer .right {
     padding-right: 0;
   }
+  .cellphonesContainer .left img{
+    width: 100%;
+  }
   .buy {
     top: 11%!important;
     right: -29%!important;
   }
 }
-@media (max-width: 1150px) {}
+
 @media (max-width: 900px) {
-  .cellphonesContainer {
+  /* .cellphonesContainer {
     flex-direction: column;
     height: auto;
     width: 100%;
     padding: 0 4rem 4rem;
-  }
+  } */
   .cellphonesContainer .right {
     padding-top: 5rem;
     padding-right: 0;
   }
-  .cellphonesContainer .left img{
-    width: 100%;
-  }
+ 
   .cellphonesContainer .left,
   .cellphonesContainer .right {
     height: 50%;
