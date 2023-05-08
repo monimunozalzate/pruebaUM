@@ -54,7 +54,12 @@
 }
 @media (min-width: 1900px) {
   .teamsContainer .teamSection .score .scoreInfo {
-    height: 55px;
+    height: 60px;
+  }
+  .teamsContainer .teamSection .teamName {
+    position: absolute;
+    right: 35%;
+    top: 0%;
   }
 }
 @media (max-width: 1350px) {

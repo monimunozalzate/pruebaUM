@@ -12,6 +12,9 @@
   align-items: center;
   gap: 1.8rem;
 }
+.footerContainer .iconsContainer img:hover{
+  filter: brightness(0.5);
+}
 .footerContainer .conditions {
   color: #fff;
   display: flex;
@@ -24,6 +27,9 @@
   font: italic normal 900 16px/19px DIN Pro;
   letter-spacing: 0px;
   color: #ffffff;
+}
+.footerContainer .conditions p:hover{
+  filter: brightness(0.5);
 }
 @media (max-width: 900px) {
   .footerContainer {

@@ -80,6 +80,9 @@
   letter-spacing: 0px;
   color: #ffffff;
 }
+.cellphonesContainer .buyNowButton:hover{
+  filter: brightness(1.5);
+}
 @media (max-width: 2560px) {
   .buy {
     right: -23% !important;
