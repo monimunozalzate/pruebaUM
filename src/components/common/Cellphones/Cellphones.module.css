@@ -90,7 +90,7 @@
 }
 @media (max-width: 1800px) {
   .buy {
-    right: -11% !important;
+    right: -20% !important;
     top: 10% !important;
   }
 }
@@ -112,12 +112,12 @@
   .cellphonesContainer .left {
     width: 50% !important;
   }
-  .cellphonesContainer .left {
-    margin-right: 0;
+  .cellphonesContainer .right {
+    padding-right: 0;
   }
   .buy {
-    top: 9% !important;
-    right: 0% !important;
+    top: 11%!important;
+    right: -29%!important;
   }
 }
 @media (max-width: 1150px) {}
