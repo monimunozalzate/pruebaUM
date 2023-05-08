@@ -54,7 +54,7 @@
 }
 @media (min-width: 1900px) {
   .teamsContainer .teamSection .score .scoreInfo {
-    height: 50px;
+    height: 45px;
   }
   .teamsContainer .teamSection .teamName {
     position: absolute;
