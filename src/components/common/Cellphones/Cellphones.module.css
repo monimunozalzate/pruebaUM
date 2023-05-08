@@ -1,0 +1,193 @@
+.cellphonesContainer {
+  background-image: url(https://res.cloudinary.com/dwqrlr45w/image/upload/v1683474719/pruebaUM/Image_12_ct5ibh.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+  width: 100%;
+  padding: 2rem;
+  /* padding-right: 8.8rem; */
+}
+
+.cellphonesContainer .left img {
+  z-index: 10;
+}
+.cellphonesContainer .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding-right: 8.8rem;
+}
+
+.cellphonesContainer .right .buyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.buy {
+  position: absolute;
+  color: #a80caf;
+  text-transform: uppercase;
+  font: normal normal normal 85px/99px Heaters;
+  transform: matrix(1, -0.03, 0.03, 1, 0, 0);
+  letter-spacing: 0px;
+  height: 108px;
+  top: 9%;
+  right: 0%;
+  width: 100%;
+}
+.cellphonesContainer .right .buyContainer .cellphone {
+  color: #000000;
+  font: italic normal 900 105px/126px DIN pro;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+.cellphonesContainer .right .iconsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cellphonesContainer .right .paragraph {
+  text-align: center;
+  text-align: center;
+  font: normal normal normal 18px/23px DIN Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 1.5rem;
+}
+.cellphonesContainer .buyNowButton {
+  width: 182px;
+  height: 45px;
+  background: #7e49c3 0% 0% no-repeat padding-box;
+  border: none;
+  text-align: center;
+  font: italic normal 900 18px/22px DIN Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+@media (max-width: 2560px) {
+  .buy {
+    right: -23% !important;
+  }
+}
+@media (max-width: 1800px) {
+  .buy {
+    right: -11% !important;
+    top: 10% !important;
+  }
+}
+@media (min-width: 1441px) {
+  .cellphonesContainer .right,
+  .cellphonesContainer .left {
+    width: 50%;
+  }
+  .buy {
+    top: 11%;
+    right: -16%;
+  }
+}
+@media (max-width: 1350px) {
+  .cellphonesContainer {
+    gap: 3rem;
+  }
+  .cellphonesContainer .right,
+  .cellphonesContainer .left {
+    width: 50% !important;
+  }
+  .cellphonesContainer .right img {
+    width: 100% !important;
+  }
+  .cellphonesContainer .left {
+    margin-right: 0;
+  }
+  .buy {
+    top: 9% !important;
+    right: 0% !important;
+  }
+}
+@media (max-width: 1150px) {}
+@media (max-width: 900px) {
+  .cellphonesContainer {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 0 4rem 4rem;
+  }
+  .cellphonesContainer .right {
+    padding-top: 5rem;
+    padding-right: 0;
+  }
+  .cellphonesContainer .left img{
+    width: 100%;
+  }
+  .cellphonesContainer .left,
+  .cellphonesContainer .right {
+    height: 50%;
+    margin: 0 !important;
+  }
+  .buy {
+    top: 6%;
+    right: -8%;
+  }
+}
+@media (max-width: 600px) {
+  .cellphonesContainer {
+    width: 100%;
+    padding: 2rem;
+  }
+  .cellphonesContainer .left,
+  .cellphonesContainer .right {
+    width: 100%;
+  }
+
+  .cellphonesContainer .left img {
+    width: 100%;
+  }
+  .buy {
+    font-size: 62px;
+    top: 9%;
+    left: 0%;
+    width: 100%;
+  }
+  .cellphonesContainer .right .buyContainer .cellphone {
+    width: 100%;
+    font-size: 85px;
+    text-align: center;
+  }
+  .iconsContainer {
+    height: 1rem;
+    width: auto;
+  }
+  .iconsContainer img {
+    height: 100%;
+  }
+}
+@media (max-width: 380px) {
+  .buy {
+    font-size: 54px;
+    top: 9%;
+  }
+}
+@media (max-width: 350px) {
+  .buy {
+    font-size: 44px;
+  }
+  .cellphonesContainer .right .buyContainer .cellphone {
+    font-size: 75px;
+  }
+}
