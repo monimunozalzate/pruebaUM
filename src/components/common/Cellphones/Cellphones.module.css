@@ -112,9 +112,6 @@
   .cellphonesContainer .left {
     width: 50% !important;
   }
-  .cellphonesContainer .right img {
-    width: 100% !important;
-  }
   .cellphonesContainer .left {
     margin-right: 0;
   }
@@ -142,6 +139,7 @@
   .cellphonesContainer .right {
     height: 50%;
     margin: 0 !important;
+    width: 100% !important;
   }
   .buy {
     top: 6%;
